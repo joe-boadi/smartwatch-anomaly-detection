@@ -54,23 +54,46 @@ Developing an algorithm to identify authentication anomaly detection using AI/ML
 **Proposed Folder structure**
 
 ```project/
+project/
 ├── data/
 │   ├── raw/
+│   │   ├── data.csv
+│   │   └── data.json
 │   ├── processed/
+│   │   ├── data_clean.csv
+│   │   └── data_clean.json
 │   └── interim/
-
+│       ├── data_interim.csv
+│       └── data_interim.json
 ├── models/
-
+│   ├── model.pkl
+│   └── model.py
 ├── notebooks/
-
+│   ├── exploratory_data_analysis.ipynb
+│   └── model_development.ipynb
 ├── src/
 │   ├── data/
+│   │   ├── load_data.py
+│   │   ├── preprocess_data.py
+│   │   └── save_data.py
 │   ├── features/
+│   │   ├── build_features.py
+│   │   └── feature_engineering.py
 │   ├── models/
+│   │   ├── train_model.py
+│   │   └── predict_model.py
 │   ├── utils/
+│   │   ├── logging.py
+│   │   └── config.py
 │   └── visualization/
-
+│       ├── visualize_data.py
+│       └── visualize_results.py
 ├── tests/
+│   ├── test_load_data.py
+│   ├── test_preprocess_data.py
+│   ├── test_build_features.py
+│   ├── test_train_model.py
+│   └── test_predict_model.py
 ├── README.md
 ├── requirements.txt
 └── setup.py
