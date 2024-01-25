@@ -101,4 +101,7 @@ project/
 _However you can structure according to your preference._
 
 ## Setting Up and Getting Started
-_(Intentionally left blank)_
+- **Task 1**
+    Structure the folder/working directory to suit the preference and scope of the project. _(Be descriptive in naming you folder and files)_
+
+_(Intentionally left blank, work in progress...)_
