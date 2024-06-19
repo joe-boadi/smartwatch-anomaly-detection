@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dependency directories
+node_modules/
+# Data files
+data/raw_data/
+data/processed_data/
+
+# Model files
+models/saved_models/
+
+# Generated files
+*.csv
+*.xlsx
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Configuration files
+.env
+config.py
+
+# Personal settings
+.DS_Store
+.history/
+
+# Build artifacts
+build/
+dist/
+
+# Compiled Python bytecode
+*.pyc
+__pycache__/
+
